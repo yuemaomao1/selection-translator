@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* main.swift */; };
+		A10000000000000000000002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* AppDelegate.swift */; };
+		A10000000000000000000003 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* AppCoordinator.swift */; };
+		A10000000000000000000004 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* Models.swift */; };
+		A10000000000000000000005 /* PermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* PermissionService.swift */; };
+		A10000000000000000000006 /* AccessibilitySelectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* AccessibilitySelectionService.swift */; };
+		A10000000000000000000007 /* GlobalKeyMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* GlobalKeyMonitor.swift */; };
+		A10000000000000000000008 /* TranslationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* TranslationService.swift */; };
+		A10000000000000000000009 /* TranslationPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* TranslationPanelController.swift */; };
+		A10000000000000000000010 /* FloatingPanelPlacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* FloatingPanelPlacer.swift */; };
+		A10000000000000000000011 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* StatusBarController.swift */; };
+		A10000000000000000000012 /* AppPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* AppPreferences.swift */; };
+		A10000000000000000000013 /* ClipboardFallbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* ClipboardFallbackService.swift */; };
+		A10000000000000000000014 /* SettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* SettingsWindowController.swift */; };
+		A10000000000000000000015 /* LaunchAtLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* LaunchAtLoginService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* PermissionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionService.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* AccessibilitySelectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilitySelectionService.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* GlobalKeyMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalKeyMonitor.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* TranslationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationService.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* TranslationPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationPanelController.swift; sourceTree = "<group>"; };
+		A20000000000000000000010 /* FloatingPanelPlacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanelPlacer.swift; sourceTree = "<group>"; };
+		A20000000000000000000011 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* AppPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPreferences.swift; sourceTree = "<group>"; };
+		A20000000000000000000013 /* ClipboardFallbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardFallbackService.swift; sourceTree = "<group>"; };
+		A20000000000000000000014 /* SettingsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindowController.swift; sourceTree = "<group>"; };
+		A20000000000000000000015 /* LaunchAtLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLoginService.swift; sourceTree = "<group>"; };
+		A20000000000000000000020 /* SelectionTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SelectionTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000000000000000000022 /* SelectionTranslator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SelectionTranslator.entitlements; sourceTree = "<group>"; };
+		A20000000000000000000023 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		A20000000000000000000024 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		A20000000000000000000025 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
+		A20000000000000000000026 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A40000000000000000000002 /* Sources */,
+				A40000000000000000000003 /* Xcode */,
+				A20000000000000000000025 /* Package.swift */,
+				A20000000000000000000026 /* README.md */,
+				A40000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000000000000000000002 /* Sources */ = {
+			isa = PBXGroup;
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+			children = (
+				A20000000000000000000006 /* AccessibilitySelectionService.swift */,
+				A20000000000000000000003 /* AppCoordinator.swift */,
+				A20000000000000000000002 /* AppDelegate.swift */,
+				A20000000000000000000012 /* AppPreferences.swift */,
+				A20000000000000000000013 /* ClipboardFallbackService.swift */,
+				A20000000000000000000010 /* FloatingPanelPlacer.swift */,
+				A20000000000000000000007 /* GlobalKeyMonitor.swift */,
+				A20000000000000000000015 /* LaunchAtLoginService.swift */,
+				A20000000000000000000001 /* main.swift */,
+				A20000000000000000000004 /* Models.swift */,
+				A20000000000000000000005 /* PermissionService.swift */,
+				A20000000000000000000014 /* SettingsWindowController.swift */,
+				A20000000000000000000011 /* StatusBarController.swift */,
+				A20000000000000000000009 /* TranslationPanelController.swift */,
+				A20000000000000000000008 /* TranslationService.swift */,
+			);
+		};
+		A40000000000000000000003 /* Xcode */ = {
+			isa = PBXGroup;
+			path = Xcode;
+			sourceTree = SOURCE_ROOT;
+			children = (
+				A20000000000000000000023 /* Debug.xcconfig */,
+				A20000000000000000000021 /* Info.plist */,
+				A20000000000000000000024 /* Release.xcconfig */,
+				A20000000000000000000022 /* SelectionTranslator.entitlements */,
+			);
+		};
+		A40000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000020 /* SelectionTranslator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* SelectionTranslator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000000000000000000002 /* Build configuration list for PBXNativeTarget "SelectionTranslator" */;
+			buildPhases = (
+				A30000000000000000000002 /* Sources */,
+				A30000000000000000000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelectionTranslator;
+			productName = SelectionTranslator;
+			productReference = A20000000000000000000020 /* SelectionTranslator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					A50000000000000000000001 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = A80000000000000000000001 /* Build configuration list for PBXProject "SelectionTranslator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40000000000000000000001;
+			productRefGroup = A40000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000000000000000000001 /* SelectionTranslator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A30000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000006 /* AccessibilitySelectionService.swift in Sources */,
+				A10000000000000000000003 /* AppCoordinator.swift in Sources */,
+				A10000000000000000000002 /* AppDelegate.swift in Sources */,
+				A10000000000000000000012 /* AppPreferences.swift in Sources */,
+				A10000000000000000000013 /* ClipboardFallbackService.swift in Sources */,
+				A10000000000000000000010 /* FloatingPanelPlacer.swift in Sources */,
+				A10000000000000000000007 /* GlobalKeyMonitor.swift in Sources */,
+				A10000000000000000000015 /* LaunchAtLoginService.swift in Sources */,
+				A10000000000000000000001 /* main.swift in Sources */,
+				A10000000000000000000004 /* Models.swift in Sources */,
+				A10000000000000000000005 /* PermissionService.swift in Sources */,
+				A10000000000000000000014 /* SettingsWindowController.swift in Sources */,
+				A10000000000000000000011 /* StatusBarController.swift in Sources */,
+				A10000000000000000000009 /* TranslationPanelController.swift in Sources */,
+				A10000000000000000000008 /* TranslationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A70000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20000000000000000000023 /* Debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+			};
+			name = Debug;
+		};
+		A70000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20000000000000000000024 /* Release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+			};
+			name = Release;
+		};
+		A70000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20000000000000000000023 /* Debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A70000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20000000000000000000024 /* Release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80000000000000000000001 /* Build configuration list for PBXProject "SelectionTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70000000000000000000001 /* Debug */,
+				A70000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000000000000000000002 /* Build configuration list for PBXNativeTarget "SelectionTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70000000000000000000003 /* Debug */,
+				A70000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A60000000000000000000001 /* Project object */;
+}
